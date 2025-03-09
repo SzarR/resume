@@ -1,0 +1,227 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Robert Szarek</title>
+<style>
+body {
+    color: #000000;
+    background: #EEEEEE;
+    font: 1.1em "Helvetica";
+    line-height: 1.2;
+    margin: 40px 0;
+}
+#resume {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px 60px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 2px 2px 4px #AAAAAA;
+    -webkit-box-shadow: 2px 2px 4px #AAAAAA;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    border-bottom: 1px solid #000000;
+    text-transform: uppercase;
+    font-size: 140%;
+    margin: 1em 0 0 0;
+    padding: 0;
+}
+h3 {
+    font-size: 107%;
+    margin: 0.8em 0 0.3em 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    margin: 0 0 0.5em 0;
+    padding: 0;
+    }
+ul {
+    padding: 0;
+    margin: 0 1.5em;
+    }
+/* ul immediately after h1 = contact list */
+h1 + ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    }
+h1 + ul > li {
+    display: inline;
+    white-space: pre;
+    list-style-type: none;
+}
+h1 + ul > li:after {
+    content: "  \2022  ";
+}
+h1 + ul > li:last-child:after {
+    content: "";
+}
+/* p immediately after contact list = summary */
+h1 + ul + p {
+    margin: 1em 0;
+}
+@media print {
+    body {
+        font-size: 10pt;
+        margin: 0;
+        padding: 0;
+        background: none;
+    }
+    #resume {
+        margin: 0;
+        padding: 0;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    /* Do not underline abbr tags in PDF */
+    abbr {
+        text-decoration: none;
+        font-variant: none;
+    }
+    /* Make links black in PDF */
+    /* Move this outside the print block to apply this in HTML too */
+    a, a:link, a:visited, a:hover {
+        color: #000000;
+        text-decoration: underline;
+    }
+}
+@page {
+    /* Change margins and paper size of PDF */
+    /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
+    size: letter;
+    margin: 0.5in 0.8in;
+}
+@media screen and (max-width: 800px) {
+    body {
+        font-size: 16pt;
+        margin: 0;
+        padding: 0;
+        background: #FFFFFF !important;
+    }
+    #resume {
+        margin: 0;
+        padding: 1em;
+        border: 0px;
+        background: none;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+}
+
+</style>
+</head>
+<body>
+<div id="resume">
+<!-- The (first) h1 will be used as the <title> of the HTML page -->
+<h1>Robert Szarek</h1>
+<!-- The unordered list immediately after the h1 will be formatted on a single
+line. It is intended to be used for contact details -->
+<ul>
+<li><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#122;&#97;&#114;&#101;&#107;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#115;&#122;&#97;&#114;&#101;&#107;&#114;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+<li><a href="https://szarr.github.io">https://szarr.github.io</a></li>
+<li>Chicago, Illinois</li>
+</ul>
+<!-- The paragraph after the h1 and ul and before the first h2 is optional. It
+is intended to be used for a short summary. -->
+<p><em>Highly skilled professional with a Master’s Degree in Industrial-Organizational Psychology, specializing in people analytics, statistical modeling, and the application of machine learning techniques. With expertise in R, Linux, and Python, I design and develop custom machine learning models and Shiny dashboard apps to address complex business challenges.</em></p>
+<h2>Skills</h2>
+<ul>
+<li>Machine learning: GLM, tree-based, clustering, PCA, SVM, deep learning</li>
+<li>NLP: tfidf, bag of words, word vectors, word embeddings, BERT</li>
+<li>R: shiny, dplyr, ggplot2, tidymodels caret, psych, markdown, quarto</li>
+<li>Python: sklearn, numpy, pandas, jupyter, matplotlib, SpaCy, polars</li>
+<li>Traditional experimental research and statistical hypothesis testing</li>
+<li>Psychometrics: (DIF, IRT, CTT), survey and test development and analysis</li>
+<li>Software engineering best practices with unit testing, Docker and Git</li>
+<li>AGILE/SCRUM project methodology</li>
+<li>Visualizations and storytelling with ggplot2, plotly and Tableau</li>
+<li>Native fluency in Polish, English, near-fluency in German, familiarity with Spanish</li>
+</ul>
+<h2>Experience</h2>
+<!-- You have to wrap the "left" and "right" half of these headings in spans by hand -->
+<h3><span>Human Factors Researcher, Federal Aviation Administration</span> <span>May 2024 &ndash; Current</span></h3>
+<p><em>As a contractor for the FAA&rsquo;s Office of Aviation Safety (AVS), I provide data analysis to support human factors research, regulatory development, and safety initiatives. My work involves analyzing aviation safety data, identifying trends, and contributing insights to improve safety protocols, training, and systems across the National Airspace System (NAS).</em></p>
+<ul>
+<li>An independent contract role to combine statistical significance testing with software programming to
+  automate and scale flight simulator pilot performance studies.</li>
+<li>Build data pipelines in R that ingest, test and export hypothesis tests that are published in formal
+  research studies.</li>
+<li>Leverage automation to streamline analytics, reducing time to completion and errors.</li>
+</ul>
+<h3><span>Senior Data Scientist, Unum</span> <span>June 2021 &ndash; Current</span></h3>
+<p><em>At Unum, I blend cutting edge scientific analyses with compelling visualizations and storytelling to help improve how we work together.</em></p>
+<ul>
+<li>Built an enterprise-grade Shiny webapp hosted on a Linux Server that serves network analyses.
+  in real-time to help solve career progression.</li>
+<li>Built a custom machine learning model to identify gender pay-gap equity.</li>
+<li>Perform Repeated Measures ANOVA to compare productivity levels of hybrid employees.</li>
+<li>Use NLP to summarize open-ended text such as survey responses and job descriptions.</li>
+<li>Built a custom skills database from mining employee Workday profiles and resumes.</li>
+<li>Built an enterprise Tableau dashboard to report volunteer and donation rates.</li>
+<li>Built a predictive model from candidate assessment data to predict employee job performance.</li>
+<li>Built a custom in-house R package to automate Teradata server connections, API data requests, and
+  custom functions for analyzing disparate impact for entry-level roles.</li>
+</ul>
+<h3><span>I/O Psychologist, Checkster</span> <span>October 2020 &ndash; March 2021</span></h3>
+<ul>
+<li>Led a project initiative to develop a machine learning algorithm to predict job performance from
+  reference-checking survey data.</li>
+<li>Consulted clients on topics such as: survey content, rating scales, benchmarking analytics, etc.</li>
+<li>Created a repository of centralized knowledge of I/O Psychology best practices and principles.</li>
+<li>Cluster-analyzed job classifications to streamline competencies assessed in surveys.</li>
+</ul>
+<h3><span>Consultant/Researcher, I/O Solutions</span> <span>September 2012 &ndash; September 2020</span></h3>
+<ul>
+<li>Consulted police &amp; fire chiefs, HR managers and other key government officials on policies and
+  practices in employee selection and minimizing adverse impact and bias in testing.</li>
+<li>Compiled and produce rigorous statistical technical documentation outlining the various deliverables
+  associated with a client project.</li>
+<li>Automated numerous analytical processes to save employer thousands of dollars in manual labor.</li>
+<li>Integrated a dynamic feedback reporting system leveraging R and Markdown to create automated
+  customizable feedback reports for clients.</li>
+<li>Built an interactive Shiny R user dashboard to import, pre-process, score, and summarize datasets
+  containing written examination data.</li>
+<li>Developed machine learning algorithms (regression) to set cut-scores on high-stakes employment
+  tests administered nationally to over 100,000 candidates.</li>
+<li>Served as project manager for agencies seeking to develop custom cognitive tests or interviews.</li>
+<li>Ran statistical analyses to drive organizational change including: ANOVA, t-test, chi-square, linear,
+  multiple and logistic regression, correlations, factor and cluster analysis, etc.</li>
+<li>Compiled normative databases utilizing R, Python or SQL to drive normative exam standards.</li>
+</ul>
+<h2>Achievements &amp; Professional Affiliations</h2>
+<h3><span>Private Pilot License, Aircraft Single Engine Land, FAA</span> <span>September 2015</span></h3>
+<h3><span>The Yellow Tulip, Volunteer</span> <span>June 2022 &ndash; January 2025</span></h3>
+<ul>
+<li>Develop a Tableau Dashboard to streamline survey responses to monitor, in real time, volunteer sentiment.</li>
+<li>Gauge feedback concerning past events to help improve the experience for the future.</li>
+<li>Consult on survey strategy, assessment technique, and data storage best practices.</li>
+</ul>
+<h3><span>Society for Industrial Psychologists (SIOP)</span> <span>October 2020 &ndash; October 2023</span></h3>
+<ul>
+<li>Built a custom R package for annual membership data cleaning.</li>
+<li>Laid the foundation for a data infrastructure plan to help streamline the access and retention of
+  sensitive data.</li>
+<li>Build an R shiny dashboard to provide an interactive experience to view membership data.</li>
+</ul>
+<h3><span>Fox Flying Club Board Member</span> <span>November 2017 &ndash; January 2019</span></h3>
+<ul>
+<li>Researched the ability for our aircraft to acquire a Cirrus SR-20 G2 for our fleet.</li>
+<li>Investigated financing options, expected maintenance, and member interest in flying new aircraft types.</li>
+<li>Performed data analysis on membership sentiment to establish long term strategy for the club.</li>
+</ul>
+<h2>Education</h2>
+<h3><span>Elmhurst College, M.A. Industrial-Organizational Psychology</span> <span>2010 &ndash; 2012</span></h3>
+<h3><span>Northeastern Illinois University, B.A. Psychology/Philosophy</span> <span>2004 &ndash; 2009</span></h3></div>
+</body>
+</html>
