@@ -9,10 +9,10 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
-*Highly skilled professional with a Master’s Degree in Industrial-Organizational Psychology, specializing in people analytics, statistical modeling, and the application of machine learning techniques. With expertise in R, Linux, and Python, I design and develop custom machine learning models and Shiny dashboard apps to address complex business challenges.*
+>*Highly skilled professional with a Master’s Degree in I-O Psychology, specializing in people analytics, statistical modeling, and the application of machine learning techniques. I have deep expertise in R, Linux, and Python, which helps me design and develop custom machine learning models and Shiny dashboards to solve complex business problems.*
 
 ## Skills
-- Machine learning: GLM, tree-based, clustering, PCA, SVM, deep learning
+- Machine learning: GLM, tree-based, clustering, PCA, SVM, deep learning, LLM
 - NLP: tfidf, bag of words, word vectors, word embeddings, BERT
 - R: shiny, dplyr, ggplot2, tidymodels caret, psych, markdown, quarto
 - Python: sklearn, numpy, pandas, jupyter, matplotlib, SpaCy, polars
@@ -28,7 +28,7 @@ is intended to be used for a short summary. -->
 <!-- You have to wrap the "left" and "right" half of these headings in spans by hand -->
 ### <span>Human Factors Researcher, Federal Aviation Administration</span> <span>May 2024 -- Current</span>
 
-*As a contractor for the FAA's Office of Aviation Safety (AVS), I provide data analysis to support human factors research, regulatory development, and safety initiatives. My work involves analyzing aviation safety data, identifying trends, and contributing insights to improve safety protocols, training, and systems across the National Airspace System (NAS).*
+>*As a contractor for the FAA's Office of Aviation Safety (AVS), I perform data analysis to support human factors research and regulatory development to improve safety and efficiency.*
 
 - An independent contract role to combine statistical significance testing with software programming to
   automate and scale flight simulator pilot performance studies.
@@ -38,7 +38,7 @@ is intended to be used for a short summary. -->
 
 ### <span>Senior Data Scientist, Unum</span> <span>June 2021 -- Current</span>
 
-*At Unum, I blend cutting edge scientific analyses with compelling visualizations and storytelling to help improve how we work together.*
+>*At Unum, I blend cutting edge scientific analyses with compelling visualizations and storytelling to help improve how we work together.*
 
 - Built an enterprise-grade Shiny webapp hosted on a Linux Server that serves network analyses.
   in real-time to help solve career progression.
@@ -53,6 +53,8 @@ is intended to be used for a short summary. -->
 
 ### <span>I/O Psychologist, Checkster</span> <span>October 2020 -- March 2021</span>
 
+> *At Checkster, I served as a consultant to ensure clients were employing best practices in the development, deployment and interpretation of survey responses.*
+
 - Led a project initiative to develop a machine learning algorithm to predict job performance from
   reference-checking survey data.
 - Consulted clients on topics such as: survey content, rating scales, benchmarking analytics, etc.
@@ -60,6 +62,8 @@ is intended to be used for a short summary. -->
 - Cluster-analyzed job classifications to streamline competencies assessed in surveys.
 
 ### <span>Consultant/Researcher, I/O Solutions</span> <span>September 2012 -- September 2020</span>
+
+> *At IOS, I provided expert consultation to government agencies on employee selection policies, developed automated systems and machine learning algorithms to streamline operations and delivered in-depth statistical analyses and reporting solutions to improve testing practices and scale analyses.*
 
 - Consulted police & fire chiefs, HR managers and other key government officials on policies and
   practices in employee selection and minimizing adverse impact and bias in testing.
@@ -106,3 +110,4 @@ is intended to be used for a short summary. -->
 
 ### <span>Northeastern Illinois University, B.A. Psychology/Philosophy</span> <span>2004 -- 2009</span>
 
+###### v1.0. Last Updated on March 8, 2025
