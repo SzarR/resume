@@ -84,6 +84,8 @@ is intended to be used for a short summary. -->
 ## Achievements & Professional Affiliations
 
 ### <span>Private Pilot License, Aircraft Single Engine Land, FAA</span> <span>September 2015</span>
+### <span>Instrument Rating, Airplane, FAA</span> <span>April 2025</span>
+
 
 ### <span>The Yellow Tulip, Volunteer</span> <span>June 2022 -- January 2025</span>
 
