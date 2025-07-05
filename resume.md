@@ -26,9 +26,18 @@ is intended to be used for a short summary. -->
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by hand -->
-### <span>Human Factors Researcher, Federal Aviation Administration</span> <span>May 2024 -- Current</span>
+### <span>Talent Analytics Solutions Lead, Netflix</span> <span>June 2025 -- Current</span>
 
->*As a contractor for the FAA's Office of Aviation Safety (AVS), I perform data analysis to support human factors research and regulatory development to improve safety and efficiency.*
+>*On the Talent Analytics team at Netflix, I build dashboards using open source and commercial software to build infrastructure to help drive the business forward in hiring the best talent and forecasting future growth.*
+
+- Build and maintain a compendium of Tableau dashboards such as Inclusion & Diversity, Capacity Modeling, etc.
+  
+- Work with stakeholders to map the vision and future for dashboard analytics 
+- Serve as a subject matter expert in data infrastructure, building customized data pipelines to help drive cutting-edge data delivery 
+
+### <span>Human Factors Researcher, FAA</span> <span>May 2024 -- Current</span>
+
+>*As a contractor for the Federal Aviation Administration's Office of Aviation Safety (AVS), I perform data analysis to support human factors research and regulatory development to improve safety and efficiency.*
 
 - An independent contract role to combine statistical significance testing with software programming to
   automate and scale flight simulator pilot performance studies.
@@ -36,7 +45,7 @@ is intended to be used for a short summary. -->
   research studies.
 - Leverage automation to streamline analytics, reducing time to completion and errors.
 
-### <span>Senior Data Scientist, Unum</span> <span>June 2021 -- Current</span>
+### <span>Senior Data Scientist, Unum</span> <span>June 2021 -- June 2025</span>
 
 >*At Unum, I blend cutting edge scientific analyses with compelling visualizations and storytelling to help improve how we work together.*
 
